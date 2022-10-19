@@ -8,8 +8,6 @@
 void times_table(void)
 {
 	int i = 0, j, tableValue;
-	
-
 
 	for (i = 0; i < 10; i++)
 	{
@@ -46,7 +44,7 @@ void times_table(void)
 }
 }
 /**
- * print _all_digits - prints all the digits
+ * print_all_digits - prints all the digits
  * @i: The integer
  *
  * Return: void
