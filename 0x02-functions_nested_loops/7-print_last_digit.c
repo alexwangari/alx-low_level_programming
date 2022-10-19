@@ -7,15 +7,10 @@
  */
 int print_last_digit(int i)
 {
-if (i < 0)
-{
-i = i * -1;
-}
-do {
-	i = i % 10;
-	}
-while (i > 10);
+int lastdigit = i % 10;
 
-_putchar(i + '0');
-return (i);
+if (lastdigit < 0)
+lastdigit *= -1;
+_putchar(lastdigit + '0');
+return (lastdigit);
 }
