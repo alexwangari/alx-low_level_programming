@@ -15,8 +15,7 @@ void times_table(void)
 	{
 		j = 0;
 
-		for (j = 0; j < 10; j++)
-
+	for (j = 0; j < 10; j++)
 	{
 	tableValue = i * j;
 
@@ -24,7 +23,7 @@ void times_table(void)
 	{
 	_putchar(',');
 
-	}	
+	}
 
 	if (tableValue < 10)
 	{
@@ -40,8 +39,8 @@ void times_table(void)
 	_putchar(' ');
 	print_all_digits(tableValue);
 
-	}	
-	}		
+	}
+	}
 	_putchar('\n');
 
 }
@@ -55,6 +54,6 @@ void times_table(void)
 void print_all_digits(int i)
 {
 	if (i / 10)
-		print_all_digits(i/10);
+		print_all_digits(i / 10);
 	_putchar(i % 10 + '0');
 }
