@@ -1,5 +1,6 @@
 #include "main.h"
 /*
+ * mul - maneno
  * mul - function to multiply 2 integers
  *
  * Return: product of a and b
@@ -9,5 +10,5 @@
 
 int mul(int a, int b)
 {
-	return(a*b);
+return (a * b);
 }
