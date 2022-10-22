@@ -3,6 +3,7 @@
 /**
  * print_line - prints line
  *
+ * @n: is our ref variable
  * Return: void
  */
 void print_line(int n)
