@@ -1,7 +1,7 @@
 #include "main.h"
 
-/*
- * main - prints 0 to 9 using custom putchar fuction,you have to use ASCII to reference
+/**
+ * print_most_numbers - prints 0 to 9 except 2 and 4
  * Return: void
  *
  */
@@ -10,9 +10,9 @@ void print_most_numbers(void)
 {
 	int x;
 
-	for ( x = 48 ; x < 58 ; x++)
+	for (x = 48 ; x < 58 ; x++)
 	{
-		if ( x != 50 && x !=52)
+		if (x != 50 && x != 52)
 		{
 		_putchar(x);
 		}
