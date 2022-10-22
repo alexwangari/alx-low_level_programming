@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main -  main function
+ * main - main function
+ *
  * Returns: 0
+ *
  */
 int main(void)
 
@@ -27,4 +29,3 @@ putchar(' ');
 putchar('\n');
 return (0);
 }
-
