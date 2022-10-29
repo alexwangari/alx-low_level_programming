@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - writes the character c to stdout
+ * _strncpy - writes the character c to stdout
  * @dest: pointer
  * @src: pointer
  * @n: integer
