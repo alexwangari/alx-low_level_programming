@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * _strncat - writes the character c to stdout
- * @c: The character to print
+ * @dest: pointer
+ * @src: pointer
+ * @n: integer
  *
  * Return: On success 1
  * On error, -1 is returned, and errno is set appropriately.
