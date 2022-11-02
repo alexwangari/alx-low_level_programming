@@ -2,7 +2,7 @@
 /**
  * _memcpy - fill memory with a contant byte
  *
- * @dest: pointer 
+ * @dest: pointer
  * @n: the number of bytes to be copied
  * @src: pointer
  *
