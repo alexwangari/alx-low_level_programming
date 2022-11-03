@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _strbrk - returns a pointer at first occurence of character s in string accept
+ * _strpbrk - returns a pointer at first occurence of character s in string accept
  *
  * @s: pointer
- * 
+ * @accept: string to be searched
+ *
  *
  * Return: a pointer to s
  */
