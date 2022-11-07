@@ -4,7 +4,6 @@
  *
  * @argc: integer counter
  * @argv: pointer to array of string
- * @i: integer counter
  *
  * Return: 0 when successful
  *
@@ -19,7 +18,7 @@ int main(int argc, char *argv[])
 	printf("Error\n");
 	return (1);
 	}
-			
+
 	n = atoi(argv[1]);
 
 	m = atoi(argv[2]);
